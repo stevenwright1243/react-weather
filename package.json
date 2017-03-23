@@ -1,0 +1,34 @@
+{
+  "name": "react-weather",
+  "description": "Weather app built with React JS",
+  "author": "Steven Wright",
+  "version": "1.0.0",
+  "license": "MIT",
+    "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenwright1243/react-weather.git"
+  },
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "babel-preset-stage-1": "^6.1.18",
+    "lodash": "^3.10.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^4.0.0",
+    "react-sparklines": "^1.6.0",
+    "redux": "^3.0.4",
+    "redux-promise": "^0.5.3"
+  }
+}
